@@ -1,0 +1,1 @@
+module.exports={code:'videopoker',name:'Video Poker',icon:'🎰',resolve:(options={})=>{ const deck=shuffle(['A','K','Q','J','10','9','8','7','6','5','4','3','2']); return {kind:'videopoker',hand:deck.slice(0,5)}; } };

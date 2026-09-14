@@ -1,0 +1,1 @@
+module.exports={code:'dice',name:'Dice',icon:'🎲',resolve:(options={})=>{ const roll=randomInt(1,100); return {kind:'dice',roll,target:Number(options?.target||50),mode:options?.mode==='over'?'over':'under'}; } };

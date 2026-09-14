@@ -1,0 +1,1 @@
+window.formatNumber=n=>new Intl.NumberFormat('vi-VN').format(Number(n)||0);window.escapeHtml=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;'}[c]));

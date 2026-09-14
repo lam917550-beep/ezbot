@@ -1,0 +1,1 @@
+module.exports={code:'treasure',name:'Săn Kho Báu',icon:'🗺️',resolve:(options={})=>{ return {kind:'treasure',chests:shuffle(Array.from({length:25},(_,i)=>i)).slice(0,3)}; } };

@@ -1,0 +1,1 @@
+module.exports={code:'jackpotwheel',name:'Vòng Quay Jackpot',icon:'💎',resolve:(options={})=>{ return {kind:'jackpotwheel',index:randomInt(0,31)}; } };

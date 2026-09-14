@@ -1,0 +1,1 @@
+module.exports={code:'number',name:'Đoán Số',icon:'🔢',resolve:(options={})=>{ return {kind:'number',number:randomInt(0,99),guess:Number(options?.guess??0)}; } };

@@ -1,0 +1,1 @@
+window.Socket={io:null,connect(){if(!window.io)return;this.io=io({transports:['websocket']});this.io.on('connect',()=>this.io.emit('auth',API.initData));this.io.on('leaderboard:update',d=>Store.set('leaderboard',d));this.io.on('jackpot:update',n=>Store.set('jackpot',n))}}

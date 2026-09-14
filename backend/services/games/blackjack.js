@@ -1,0 +1,1 @@
+module.exports={code:'blackjack',name:'Blackjack',icon:'🃏',resolve:(options={})=>{ const cards=shuffle(['A','K','Q','J','10','9','8','7','6','5','4','3','2']); return {kind:'blackjack',cards:cards.slice(0,4)}; } };

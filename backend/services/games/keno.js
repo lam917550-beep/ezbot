@@ -1,0 +1,1 @@
+module.exports={code:'keno',name:'Keno',icon:'🎱',resolve:(options={})=>{ const nums=shuffle(Array.from({length:80},(_,i)=>i+1)).slice(0,20); return {kind:'keno',draw:nums}; } };

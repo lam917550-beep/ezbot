@@ -1,0 +1,1 @@
+window.Toast={show(m){const d=document.createElement('div');d.className='card fade-in';d.textContent=m;Object.assign(d.style,{position:'fixed',top:'72px',right:'12px',zIndex:999});document.body.appendChild(d);setTimeout(()=>d.remove(),2500)}}

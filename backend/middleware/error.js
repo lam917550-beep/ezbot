@@ -1,0 +1,1 @@
+module.exports=(err,req,res,next)=>{console.error(JSON.stringify({level:'error',path:req.path,message:err.message,code:err.code||'INTERNAL'})); res.status(err.status||500).json({error:err.message||'Internal error',code:err.code||'INTERNAL_ERROR'});};

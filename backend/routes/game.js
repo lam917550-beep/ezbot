@@ -1,0 +1,2 @@
+const auth=require('../middleware/auth'); const limiter=require('../middleware/rateLimit').gameLimiter; const Joi=require('joi'); const validate=require('../middleware/validate'); const engine=require('../services/gameEngine');
+module.exports=app=>app.post('/api/games/play',auth,limiter,validate(Joi.object({game:Joi.string().required(),bet:Joi.number().integer().min(1).required(),options:Joi.object().default({})})),async(req,res,next)=>{try{res.json(await engine.play(req.telegramId,req.body.game,req.body.bet,req.body.options))}catch(e){next(e)}});

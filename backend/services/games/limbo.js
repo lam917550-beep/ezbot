@@ -1,0 +1,1 @@
+module.exports={code:'limbo',name:'Limbo',icon:'📈',resolve:(options={})=>{ const roll=Math.max(1.01,Math.min(1000000,99/(100*Math.max(randomFloat(),0.000001)))); return {kind:'limbo',roll:Number(roll.toFixed(2))}; } };

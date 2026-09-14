@@ -1,0 +1,1 @@
+module.exports={code:'football',name:'Bóng Đá Ảo',icon:'⚽',resolve:(options={})=>{ return {kind:'football',home:randomInt(0,4),away:randomInt(0,4)}; } };

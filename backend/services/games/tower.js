@@ -1,0 +1,1 @@
+module.exports={code:'tower',name:'Tháp May Mắn',icon:'🗼',resolve:(options={})=>{ return {kind:'tower',safe:Array.from({length:9},()=>randomInt(0,2))}; } };

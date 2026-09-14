@@ -1,0 +1,1 @@
+const db=require('../../database/db'); module.exports={getUserQuests:id=>db.prepare('SELECT uq.*,qt.title,qt.reward_money,qt.reward_xp FROM user_quests uq JOIN quest_templates qt ON qt.id=uq.quest_id WHERE uq.user_id=?').all(id),progressQuest(){},claimQuest(){throw new Error('Quest claim chưa được kết nối trong bản lõi')},assignQuestsToUser(){}};

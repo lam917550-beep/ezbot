@@ -1,0 +1,6 @@
+const db=require('../../database/db');const {randomFloat}=require('./rng');
+if(!db.prepare('SELECT 1 FROM jackpot WHERE id=1').get())db.prepare("INSERT INTO jackpot(id,amount,updated_at) VALUES(1,1000000,strftime('%s','now'))").run();
+function getJackpot(){return db.prepare('SELECT amount FROM jackpot WHERE id=1').get().amount}
+function contributeToJackpot(a){db.prepare("UPDATE jackpot SET amount=amount+?,updated_at=strftime('%s','now') WHERE id=1").run(Math.max(0,Math.floor(a)))}
+function tryTriggerJackpot(uid,game){if(randomFloat()>=0.0001)return false;return db.transaction(()=>{const amount=getJackpot();db.prepare("UPDATE jackpot SET amount=1000000,last_winner=?,last_won_at=strftime('%s','now') WHERE id=1").run(uid);db.prepare('INSERT INTO jackpot_history(winner_id,amount,game) VALUES(?,?,?)').run(uid,amount,game);db.prepare('UPDATE users SET balance=balance+?,total_won=total_won+? WHERE id=?').run(amount,amount,uid);db.prepare('INSERT INTO transactions(user_id,type,amount,note) VALUES(?,?,?,?)').run(uid,'jackpot',amount,`jackpot:${game}`);return true})()}
+module.exports={getJackpot,contributeToJackpot,tryTriggerJackpot,resetJackpot:()=>db.prepare('UPDATE jackpot SET amount=1000000 WHERE id=1').run(),getHistory:l=>db.prepare('SELECT * FROM jackpot_history ORDER BY id DESC LIMIT ?').all(Math.min(Number(l)||20,100))};

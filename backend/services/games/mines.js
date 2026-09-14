@@ -1,0 +1,1 @@
+module.exports={code:'mines',name:'Mines',icon:'💣',resolve:(options={})=>{ const mines=randomInt(1,12); const safe=25-mines; return {kind:'mines',mines,safe}; } };

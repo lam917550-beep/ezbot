@@ -1,0 +1,1 @@
+window.UIHome={render:()=>{const d=document.createElement('div');d.innerHTML=`<div class="card fade-in"><h1>🎰 CASINO</h1><p>Xu ảo • Server-authoritative • 30 game</p><div class="row"><a class="btn btn-primary" href="#/games">Chơi ngay</a><a class="btn btn-secondary" href="#/pets">Pet</a></div></div>`;return d}}

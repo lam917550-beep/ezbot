@@ -1,0 +1,1 @@
+module.exports={code:'baccarat',name:'Baccarat',icon:'👑',resolve:(options={})=>{ return {kind:'baccarat',player:randomInt(0,9),banker:randomInt(0,9)}; } };

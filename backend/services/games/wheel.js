@@ -1,0 +1,1 @@
+module.exports={code:'wheel',name:'Wheel of Fortune',icon:'🎡',resolve:(options={})=>{ const index=randomInt(0,15); return {kind:'wheel',index}; } };

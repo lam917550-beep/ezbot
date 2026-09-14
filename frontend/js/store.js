@@ -1,0 +1,1 @@
+window.Store={state:{user:null,settings:null,pets:[],leaderboard:null,games:[]},listeners:[],set(k,v){this.state[k]=v;this.listeners.filter(x=>x.k===k).forEach(x=>x.fn(v))},on(k,fn){this.listeners.push({k,fn});return()=>{this.listeners=this.listeners.filter(x=>x.fn!==fn)}}};
