@@ -12,7 +12,7 @@
     "test": "node scripts/smoke-test.js"
   },
   "engines": {
-    "node": ">=18"
+    "node": ">=18 <27"
   },
   "dependencies": {
     "better-sqlite3": "^12.10.0",
