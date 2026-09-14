@@ -1,0 +1,11 @@
+const db=require('./db'); const games=require('../data/games'); const pets=require('../data/pets.json'); const C=require('../config/constants'); const {nowSec}=require('../utils/time');
+const schema=require('fs').readFileSync(require('path').join(__dirname,'schema.sql'),'utf8'); db.exec(schema);
+const petStmt=db.prepare('INSERT OR IGNORE INTO pets(id,name,icon,description,rarity,money_bonus,xp_bonus,price,hidden,order_index,max_level,upgrade_cost_per_level,created_at,updated_at) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?)');
+for(const p of pets)petStmt.run(p.id,p.name,p.icon,p.name,p.rarity,p.moneyBonus,p.xpBonus,String(p.price),0,Number(p.id.split('_')[1]),10,'0',nowSec(),nowSec());
+db.prepare("INSERT OR IGNORE INTO jackpot(id,amount,updated_at) VALUES(1,?,?)").run(C.JACKPOT_START.toString(),nowSec());
+for(const g of games)db.prepare('INSERT OR IGNORE INTO system_settings(key,value,updated_at) VALUES(?,?,?)').run('game:'+g.code,JSON.stringify(g),nowSec());
+const quests=[['daily_bet','daily','Đặt cược','Hoàn thành 5 lượt cược','🎯',5,'20000',0],['daily_win','daily','Chiến thắng','Thắng 2 ván','🏆',2,'50000',30],['weekly_wager','weekly','High Roller','Cược 1,000,000 xu','💎',1000000,'100000',100]];
+for(const q of quests)db.prepare('INSERT OR IGNORE INTO quest_templates(id,type,title,description,icon,target,reward_money,reward_xp,active) VALUES(?,?,?,?,?,?,?,?,1)').run(...q);
+for(let i=1;i<=100;i++)db.prepare('INSERT OR IGNORE INTO achievement_templates(id,title,description,icon,category,target,reward_money,reward_xp,hidden) VALUES(?,?,?,?,?,?,?,?,0)').run('ach_'+String(i).padStart(3,'0'),'Thành tựu #'+i,'Hoàn thành mốc '+i,'🏅','general',i,String(i*10000),i*10);
+for(const [code,name] of [['global','Chat Global'],['vip','Chat VIP']])db.prepare('INSERT OR IGNORE INTO chat_channels(code,name,type,created_at) VALUES(?,?,?,?)').run(code,name,code==='vip'?'vip':'public',nowSec());
+console.log('Seed complete');

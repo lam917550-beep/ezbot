@@ -1,0 +1,902 @@
+[
+  {
+    "id": "pet_001",
+    "name": "Cún Con",
+    "icon": "🐶",
+    "moneyBonus": 5.0,
+    "xpBonus": 5.0,
+    "price": 10000,
+    "rarity": "Common"
+  },
+  {
+    "id": "pet_002",
+    "name": "Mèo Mun",
+    "icon": "🐱",
+    "moneyBonus": 8.0,
+    "xpBonus": 6.0,
+    "price": 25000,
+    "rarity": "Common"
+  },
+  {
+    "id": "pet_003",
+    "name": "Chuột Vàng",
+    "icon": "🐭",
+    "moneyBonus": 12.0,
+    "xpBonus": 8.0,
+    "price": 60000,
+    "rarity": "Common"
+  },
+  {
+    "id": "pet_004",
+    "name": "Hamster",
+    "icon": "🐹",
+    "moneyBonus": 15.0,
+    "xpBonus": 10.0,
+    "price": 150000,
+    "rarity": "Common"
+  },
+  {
+    "id": "pet_005",
+    "name": "Thỏ Trắng",
+    "icon": "🐰",
+    "moneyBonus": 20.0,
+    "xpBonus": 12.0,
+    "price": 350000,
+    "rarity": "Common"
+  },
+  {
+    "id": "pet_006",
+    "name": "Cáo Lửa",
+    "icon": "🦊",
+    "moneyBonus": 25.0,
+    "xpBonus": 15.0,
+    "price": 800000,
+    "rarity": "Common"
+  },
+  {
+    "id": "pet_007",
+    "name": "Gấu Nâu",
+    "icon": "🐻",
+    "moneyBonus": 30.0,
+    "xpBonus": 20.0,
+    "price": 1800000,
+    "rarity": "Common"
+  },
+  {
+    "id": "pet_008",
+    "name": "Gấu Trúc",
+    "icon": "🐼",
+    "moneyBonus": 40.0,
+    "xpBonus": 25.0,
+    "price": 4000000,
+    "rarity": "Uncommon"
+  },
+  {
+    "id": "pet_009",
+    "name": "Koala",
+    "icon": "🐨",
+    "moneyBonus": 50.0,
+    "xpBonus": 30.0,
+    "price": 9000000,
+    "rarity": "Uncommon"
+  },
+  {
+    "id": "pet_010",
+    "name": "Hổ Bengal",
+    "icon": "🐯",
+    "moneyBonus": 75.0,
+    "xpBonus": 50.0,
+    "price": 20000000,
+    "rarity": "Uncommon"
+  },
+  {
+    "id": "pet_011",
+    "name": "Sư Tử",
+    "icon": "🦁",
+    "moneyBonus": 100.0,
+    "xpBonus": 75.0,
+    "price": 45000000,
+    "rarity": "Uncommon"
+  },
+  {
+    "id": "pet_012",
+    "name": "Bò Sữa",
+    "icon": "🐮",
+    "moneyBonus": 125.0,
+    "xpBonus": 100.0,
+    "price": 100000000,
+    "rarity": "Uncommon"
+  },
+  {
+    "id": "pet_013",
+    "name": "Heo Hồng",
+    "icon": "🐷",
+    "moneyBonus": 150.0,
+    "xpBonus": 120.0,
+    "price": 220000000,
+    "rarity": "Uncommon"
+  },
+  {
+    "id": "pet_014",
+    "name": "Ếch Xanh",
+    "icon": "🐸",
+    "moneyBonus": 200.0,
+    "xpBonus": 150.0,
+    "price": 500000000,
+    "rarity": "Rare"
+  },
+  {
+    "id": "pet_015",
+    "name": "Khỉ Đột",
+    "icon": "🐵",
+    "moneyBonus": 250.0,
+    "xpBonus": 200.0,
+    "price": 1200000000,
+    "rarity": "Rare"
+  },
+  {
+    "id": "pet_016",
+    "name": "Gà Trống",
+    "icon": "🐔",
+    "moneyBonus": 300.0,
+    "xpBonus": 250.0,
+    "price": 2800000000,
+    "rarity": "Rare"
+  },
+  {
+    "id": "pet_017",
+    "name": "Chim Cánh Cụt",
+    "icon": "🐧",
+    "moneyBonus": 400.0,
+    "xpBonus": 300.0,
+    "price": 6500000000,
+    "rarity": "Rare"
+  },
+  {
+    "id": "pet_018",
+    "name": "Kỳ Lân",
+    "icon": "🦄",
+    "moneyBonus": 500.0,
+    "xpBonus": 400.0,
+    "price": 15000000000,
+    "rarity": "Rare"
+  },
+  {
+    "id": "pet_019",
+    "name": "Rồng Lửa",
+    "icon": "🐉",
+    "moneyBonus": 750.0,
+    "xpBonus": 600.0,
+    "price": 35000000000,
+    "rarity": "Epic"
+  },
+  {
+    "id": "pet_020",
+    "name": "Phượng Hoàng",
+    "icon": "🔥",
+    "moneyBonus": 1000.0,
+    "xpBonus": 800.0,
+    "price": 80000000000,
+    "rarity": "Epic"
+  },
+  {
+    "id": "pet_021",
+    "name": "Cún Husky",
+    "icon": "🐕",
+    "moneyBonus": 1200.0,
+    "xpBonus": 900.0,
+    "price": 120000000000,
+    "rarity": "Epic"
+  },
+  {
+    "id": "pet_022",
+    "name": "Cáo Bắc Cực",
+    "icon": "🦊",
+    "moneyBonus": 1400.0,
+    "xpBonus": 1000.0,
+    "price": 180000000000,
+    "rarity": "Epic"
+  },
+  {
+    "id": "pet_023",
+    "name": "Chim Ưng",
+    "icon": "🦅",
+    "moneyBonus": 1600.0,
+    "xpBonus": 1200.0,
+    "price": 270000000000,
+    "rarity": "Epic"
+  },
+  {
+    "id": "pet_024",
+    "name": "Chim Cú",
+    "icon": "🦉",
+    "moneyBonus": 1800.0,
+    "xpBonus": 1400.0,
+    "price": 400000000000,
+    "rarity": "Epic"
+  },
+  {
+    "id": "pet_025",
+    "name": "Dơi Đêm",
+    "icon": "🦇",
+    "moneyBonus": 2000.0,
+    "xpBonus": 1600.0,
+    "price": 600000000000,
+    "rarity": "Epic"
+  },
+  {
+    "id": "pet_026",
+    "name": "Sói Xám",
+    "icon": "🐺",
+    "moneyBonus": 2500.0,
+    "xpBonus": 2000.0,
+    "price": 900000000000,
+    "rarity": "Legendary"
+  },
+  {
+    "id": "pet_027",
+    "name": "Lợn Rừng",
+    "icon": "🐗",
+    "moneyBonus": 3000.0,
+    "xpBonus": 2400.0,
+    "price": 1350000000000,
+    "rarity": "Legendary"
+  },
+  {
+    "id": "pet_028",
+    "name": "Ngựa Vằn",
+    "icon": "🦓",
+    "moneyBonus": 3500.0,
+    "xpBonus": 2800.0,
+    "price": 2000000000000,
+    "rarity": "Legendary"
+  },
+  {
+    "id": "pet_029",
+    "name": "Hươu Cao Cổ",
+    "icon": "🦒",
+    "moneyBonus": 4000.0,
+    "xpBonus": 3200.0,
+    "price": 3000000000000,
+    "rarity": "Legendary"
+  },
+  {
+    "id": "pet_030",
+    "name": "Voi Châu Phi",
+    "icon": "🐘",
+    "moneyBonus": 4500.0,
+    "xpBonus": 3600.0,
+    "price": 4500000000000,
+    "rarity": "Legendary"
+  },
+  {
+    "id": "pet_031",
+    "name": "Tê Giác",
+    "icon": "🦏",
+    "moneyBonus": 5000.0,
+    "xpBonus": 4000.0,
+    "price": 6800000000000,
+    "rarity": "Legendary"
+  },
+  {
+    "id": "pet_032",
+    "name": "Hà Mã",
+    "icon": "🦛",
+    "moneyBonus": 5500.0,
+    "xpBonus": 4400.0,
+    "price": 10000000000000,
+    "rarity": "Legendary"
+  },
+  {
+    "id": "pet_033",
+    "name": "Lạc Đà",
+    "icon": "🐪",
+    "moneyBonus": 6000.0,
+    "xpBonus": 4800.0,
+    "price": 15000000000000,
+    "rarity": "Legendary"
+  },
+  {
+    "id": "pet_034",
+    "name": "Lạc Đà 2 Bướu",
+    "icon": "🐫",
+    "moneyBonus": 6500.0,
+    "xpBonus": 5200.0,
+    "price": 22000000000000,
+    "rarity": "Legendary"
+  },
+  {
+    "id": "pet_035",
+    "name": "Kangaroo",
+    "icon": "🦘",
+    "moneyBonus": 7000.0,
+    "xpBonus": 5600.0,
+    "price": 33000000000000,
+    "rarity": "Legendary"
+  },
+  {
+    "id": "pet_036",
+    "name": "Bò Rừng",
+    "icon": "🐃",
+    "moneyBonus": 7500.0,
+    "xpBonus": 6000.0,
+    "price": 50000000000000,
+    "rarity": "Mythic"
+  },
+  {
+    "id": "pet_037",
+    "name": "Bò Tót",
+    "icon": "🐂",
+    "moneyBonus": 8000.0,
+    "xpBonus": 6400.0,
+    "price": 75000000000000,
+    "rarity": "Mythic"
+  },
+  {
+    "id": "pet_038",
+    "name": "Bò Sữa Châu Âu",
+    "icon": "🐄",
+    "moneyBonus": 8500.0,
+    "xpBonus": 6800.0,
+    "price": 110000000000000,
+    "rarity": "Mythic"
+  },
+  {
+    "id": "pet_039",
+    "name": "Ngựa Đua",
+    "icon": "🐎",
+    "moneyBonus": 9000.0,
+    "xpBonus": 7200.0,
+    "price": 160000000000000,
+    "rarity": "Mythic"
+  },
+  {
+    "id": "pet_040",
+    "name": "Lợn Rừng Đen",
+    "icon": "🐖",
+    "moneyBonus": 9500.0,
+    "xpBonus": 7600.0,
+    "price": 240000000000000,
+    "rarity": "Mythic"
+  },
+  {
+    "id": "pet_041",
+    "name": "Cừu Trắng",
+    "icon": "🐏",
+    "moneyBonus": 10000.0,
+    "xpBonus": 8000.0,
+    "price": 350000000000000,
+    "rarity": "Mythic"
+  },
+  {
+    "id": "pet_042",
+    "name": "Cừu Đen",
+    "icon": "🐑",
+    "moneyBonus": 11000.0,
+    "xpBonus": 8800.0,
+    "price": 500000000000000,
+    "rarity": "Mythic"
+  },
+  {
+    "id": "pet_043",
+    "name": "Dê Núi",
+    "icon": "🦙",
+    "moneyBonus": 12000.0,
+    "xpBonus": 9600.0,
+    "price": 750000000000000,
+    "rarity": "Mythic"
+  },
+  {
+    "id": "pet_044",
+    "name": "Dê Trắng",
+    "icon": "🐐",
+    "moneyBonus": 13000.0,
+    "xpBonus": 10400.0,
+    "price": 1100000000000000,
+    "rarity": "Mythic"
+  },
+  {
+    "id": "pet_045",
+    "name": "Hươu Đỏ",
+    "icon": "🦌",
+    "moneyBonus": 14000.0,
+    "xpBonus": 11200.0,
+    "price": 1600000000000000,
+    "rarity": "Mythic"
+  },
+  {
+    "id": "pet_046",
+    "name": "Chó Săn",
+    "icon": "🐕‍🦺",
+    "moneyBonus": 15000.0,
+    "xpBonus": 12000.0,
+    "price": 2400000000000000,
+    "rarity": "Divine"
+  },
+  {
+    "id": "pet_047",
+    "name": "Chó Cảnh Sát",
+    "icon": "🐩",
+    "moneyBonus": 16000.0,
+    "xpBonus": 12800.0,
+    "price": 3500000000000000,
+    "rarity": "Divine"
+  },
+  {
+    "id": "pet_048",
+    "name": "Mèo Tam Thể",
+    "icon": "🐈",
+    "moneyBonus": 17000.0,
+    "xpBonus": 13600.0,
+    "price": 5000000000000000,
+    "rarity": "Divine"
+  },
+  {
+    "id": "pet_049",
+    "name": "Mèo Đen",
+    "icon": "🐈‍⬛",
+    "moneyBonus": 18000.0,
+    "xpBonus": 14400.0,
+    "price": 7500000000000000,
+    "rarity": "Divine"
+  },
+  {
+    "id": "pet_050",
+    "name": "Gà Mái",
+    "icon": "🐓",
+    "moneyBonus": 19000.0,
+    "xpBonus": 15200.0,
+    "price": 11000000000000000,
+    "rarity": "Divine"
+  },
+  {
+    "id": "pet_051",
+    "name": "Gà Tây",
+    "icon": "🦃",
+    "moneyBonus": 20000.0,
+    "xpBonus": 16000.0,
+    "price": 16000000000000000,
+    "rarity": "Divine"
+  },
+  {
+    "id": "pet_052",
+    "name": "Công Xanh",
+    "icon": "🦚",
+    "moneyBonus": 22000.0,
+    "xpBonus": 17600.0,
+    "price": 24000000000000000,
+    "rarity": "Divine"
+  },
+  {
+    "id": "pet_053",
+    "name": "Vẹt Đỏ",
+    "icon": "🦜",
+    "moneyBonus": 24000.0,
+    "xpBonus": 19200.0,
+    "price": 36000000000000000,
+    "rarity": "Divine"
+  },
+  {
+    "id": "pet_054",
+    "name": "Thiên Nga",
+    "icon": "🦢",
+    "moneyBonus": 26000.0,
+    "xpBonus": 20800.0,
+    "price": 54000000000000000,
+    "rarity": "Divine"
+  },
+  {
+    "id": "pet_055",
+    "name": "Hồng Hạc",
+    "icon": "🦩",
+    "moneyBonus": 28000.0,
+    "xpBonus": 22400.0,
+    "price": 80000000000000000,
+    "rarity": "Divine"
+  },
+  {
+    "id": "pet_056",
+    "name": "Bồ Câu Trắng",
+    "icon": "🕊",
+    "moneyBonus": 30000.0,
+    "xpBonus": 24000.0,
+    "price": 120000000000000000,
+    "rarity": "Divine"
+  },
+  {
+    "id": "pet_057",
+    "name": "Thỏ Xám",
+    "icon": "🐇",
+    "moneyBonus": 32000.0,
+    "xpBonus": 25600.0,
+    "price": 180000000000000000,
+    "rarity": "Divine"
+  },
+  {
+    "id": "pet_058",
+    "name": "Gấu Mèo",
+    "icon": "🦝",
+    "moneyBonus": 34000.0,
+    "xpBonus": 27200.0,
+    "price": 270000000000000000,
+    "rarity": "Celestial"
+  },
+  {
+    "id": "pet_059",
+    "name": "Chồn Hôi",
+    "icon": "🦨",
+    "moneyBonus": 36000.0,
+    "xpBonus": 28800.0,
+    "price": 400000000000000000,
+    "rarity": "Celestial"
+  },
+  {
+    "id": "pet_060",
+    "name": "Lửng",
+    "icon": "🦡",
+    "moneyBonus": 38000.0,
+    "xpBonus": 30400.0,
+    "price": 600000000000000000,
+    "rarity": "Celestial"
+  },
+  {
+    "id": "pet_061",
+    "name": "Rái Cá",
+    "icon": "🦦",
+    "moneyBonus": 40000.0,
+    "xpBonus": 32000.0,
+    "price": 900000000000000000,
+    "rarity": "Celestial"
+  },
+  {
+    "id": "pet_062",
+    "name": "Lười",
+    "icon": "🦥",
+    "moneyBonus": 42000.0,
+    "xpBonus": 33600.0,
+    "price": 1350000000000000000,
+    "rarity": "Celestial"
+  },
+  {
+    "id": "pet_063",
+    "name": "Chuột Túi",
+    "icon": "🐁",
+    "moneyBonus": 44000.0,
+    "xpBonus": 35200.0,
+    "price": 2000000000000000000,
+    "rarity": "Celestial"
+  },
+  {
+    "id": "pet_064",
+    "name": "Chuột Nhắt",
+    "icon": "🐀",
+    "moneyBonus": 46000.0,
+    "xpBonus": 36800.0,
+    "price": 3000000000000000000,
+    "rarity": "Celestial"
+  },
+  {
+    "id": "pet_065",
+    "name": "Sóc",
+    "icon": "🐿",
+    "moneyBonus": 48000.0,
+    "xpBonus": 38400.0,
+    "price": 4500000000000000000,
+    "rarity": "Celestial"
+  },
+  {
+    "id": "pet_066",
+    "name": "Nhím",
+    "icon": "🦔",
+    "moneyBonus": 50000.0,
+    "xpBonus": 40000.0,
+    "price": 6800000000000000000,
+    "rarity": "Celestial"
+  },
+  {
+    "id": "pet_067",
+    "name": "Khủng Long Ăn Cỏ",
+    "icon": "🦕",
+    "moneyBonus": 60000.0,
+    "xpBonus": 48000.0,
+    "price": 10000000000000000000,
+    "rarity": "Cosmic"
+  },
+  {
+    "id": "pet_068",
+    "name": "Khủng Long Ăn Thịt",
+    "icon": "🦖",
+    "moneyBonus": 70000.0,
+    "xpBonus": 56000.0,
+    "price": 15000000000000000000,
+    "rarity": "Cosmic"
+  },
+  {
+    "id": "pet_069",
+    "name": "Bạch Tuộc",
+    "icon": "🐙",
+    "moneyBonus": 80000.0,
+    "xpBonus": 64000.0,
+    "price": 22000000000000000000,
+    "rarity": "Cosmic"
+  },
+  {
+    "id": "pet_070",
+    "name": "Mực Ống",
+    "icon": "🦑",
+    "moneyBonus": 90000.0,
+    "xpBonus": 72000.0,
+    "price": 33000000000000000000,
+    "rarity": "Cosmic"
+  },
+  {
+    "id": "pet_071",
+    "name": "Tôm Hùm",
+    "icon": "🦞",
+    "moneyBonus": 100000.0,
+    "xpBonus": 80000.0,
+    "price": 50000000000000000000,
+    "rarity": "Cosmic"
+  },
+  {
+    "id": "pet_072",
+    "name": "Cua Biển",
+    "icon": "🦀",
+    "moneyBonus": 110000.0,
+    "xpBonus": 88000.0,
+    "price": 75000000000000000000,
+    "rarity": "Cosmic"
+  },
+  {
+    "id": "pet_073",
+    "name": "Cá Heo",
+    "icon": "🐬",
+    "moneyBonus": 120000.0,
+    "xpBonus": 96000.0,
+    "price": 110000000000000000000,
+    "rarity": "Cosmic"
+  },
+  {
+    "id": "pet_074",
+    "name": "Cá Voi Xanh",
+    "icon": "🐳",
+    "moneyBonus": 130000.0,
+    "xpBonus": 104000.0,
+    "price": 160000000000000000000,
+    "rarity": "Cosmic"
+  },
+  {
+    "id": "pet_075",
+    "name": "Cá Voi Sát Thủ",
+    "icon": "🐋",
+    "moneyBonus": 140000.0,
+    "xpBonus": 112000.0,
+    "price": 240000000000000000000,
+    "rarity": "Cosmic"
+  },
+  {
+    "id": "pet_076",
+    "name": "Cá Mập Trắng",
+    "icon": "🦈",
+    "moneyBonus": 150000.0,
+    "xpBonus": 120000.0,
+    "price": 350000000000000000000,
+    "rarity": "Cosmic"
+  },
+  {
+    "id": "pet_077",
+    "name": "Cá Sấu",
+    "icon": "🐊",
+    "moneyBonus": 160000.0,
+    "xpBonus": 128000.0,
+    "price": 500000000000000000000,
+    "rarity": "Cosmic"
+  },
+  {
+    "id": "pet_078",
+    "name": "Hổ Trắng",
+    "icon": "🐅",
+    "moneyBonus": 180000.0,
+    "xpBonus": 144000.0,
+    "price": 750000000000000000000,
+    "rarity": "Transcendent"
+  },
+  {
+    "id": "pet_079",
+    "name": "Báo Đốm",
+    "icon": "🐆",
+    "moneyBonus": 200000.0,
+    "xpBonus": 160000.0,
+    "price": 1100000000000000000000,
+    "rarity": "Transcendent"
+  },
+  {
+    "id": "pet_080",
+    "name": "Hà Mã Xanh",
+    "icon": "🦛",
+    "moneyBonus": 220000.0,
+    "xpBonus": 176000.0,
+    "price": 1600000000000000000000,
+    "rarity": "Transcendent"
+  },
+  {
+    "id": "pet_081",
+    "name": "Tê Giác Đen",
+    "icon": "🦏",
+    "moneyBonus": 250000.0,
+    "xpBonus": 200000.0,
+    "price": 2400000000000000000000,
+    "rarity": "Transcendent"
+  },
+  {
+    "id": "pet_082",
+    "name": "Chim Cánh Cụt Hoàng Đế",
+    "icon": "🐧",
+    "moneyBonus": 280000.0,
+    "xpBonus": 224000.0,
+    "price": 3500000000000000000000,
+    "rarity": "Transcendent"
+  },
+  {
+    "id": "pet_083",
+    "name": "Cún Alaska",
+    "icon": "🐕",
+    "moneyBonus": 320000.0,
+    "xpBonus": 256000.0,
+    "price": 5000000000000000000000,
+    "rarity": "Transcendent"
+  },
+  {
+    "id": "pet_084",
+    "name": "Cáo Tuyết",
+    "icon": "🦊",
+    "moneyBonus": 360000.0,
+    "xpBonus": 288000.0,
+    "price": 7500000000000000000000,
+    "rarity": "Transcendent"
+  },
+  {
+    "id": "pet_085",
+    "name": "Mèo Rừng",
+    "icon": "🐈",
+    "moneyBonus": 400000.0,
+    "xpBonus": 320000.0,
+    "price": 11000000000000000000000,
+    "rarity": "Transcendent"
+  },
+  {
+    "id": "pet_086",
+    "name": "Sói Trắng",
+    "icon": "🐺",
+    "moneyBonus": 450000.0,
+    "xpBonus": 360000.0,
+    "price": 16000000000000000000000,
+    "rarity": "Transcendent"
+  },
+  {
+    "id": "pet_087",
+    "name": "Hươu Trắng",
+    "icon": "🦌",
+    "moneyBonus": 500000.0,
+    "xpBonus": 400000.0,
+    "price": 24000000000000000000000,
+    "rarity": "Divine+"
+  },
+  {
+    "id": "pet_088",
+    "name": "Gấu Bắc Cực",
+    "icon": "🐻‍❄️",
+    "moneyBonus": 600000.0,
+    "xpBonus": 480000.0,
+    "price": 36000000000000000000000,
+    "rarity": "Divine+"
+  },
+  {
+    "id": "pet_089",
+    "name": "Chim Phượng Đỏ",
+    "icon": "🦅",
+    "moneyBonus": 700000.0,
+    "xpBonus": 560000.0,
+    "price": 54000000000000000000000,
+    "rarity": "Divine+"
+  },
+  {
+    "id": "pet_090",
+    "name": "Chim Phượng Xanh",
+    "icon": "🕊",
+    "moneyBonus": 800000.0,
+    "xpBonus": 640000.0,
+    "price": 80000000000000000000000,
+    "rarity": "Divine+"
+  },
+  {
+    "id": "pet_091",
+    "name": "Rồng Xanh",
+    "icon": "🐲",
+    "moneyBonus": 900000.0,
+    "xpBonus": 720000.0,
+    "price": 120000000000000000000000,
+    "rarity": "Divine+"
+  },
+  {
+    "id": "pet_092",
+    "name": "Rồng Vàng",
+    "icon": "🐉",
+    "moneyBonus": 1000000.0,
+    "xpBonus": 800000.0,
+    "price": 180000000000000000000000,
+    "rarity": "Divine+"
+  },
+  {
+    "id": "pet_093",
+    "name": "Rồng Đen",
+    "icon": "🐉",
+    "moneyBonus": 1200000.0,
+    "xpBonus": 960000.0,
+    "price": 270000000000000000000000,
+    "rarity": "Godlike"
+  },
+  {
+    "id": "pet_094",
+    "name": "Kỳ Lân Trắng",
+    "icon": "🦄",
+    "moneyBonus": 1500000.0,
+    "xpBonus": 1200000.0,
+    "price": 400000000000000000000000,
+    "rarity": "Godlike"
+  },
+  {
+    "id": "pet_095",
+    "name": "Kỳ Lân Vàng",
+    "icon": "🦄",
+    "moneyBonus": 1800000.0,
+    "xpBonus": 1440000.0,
+    "price": 600000000000000000000000,
+    "rarity": "Godlike"
+  },
+  {
+    "id": "pet_096",
+    "name": "Phượng Hoàng Lửa",
+    "icon": "🔥",
+    "moneyBonus": 2000000.0,
+    "xpBonus": 1600000.0,
+    "price": 900000000000000000000000,
+    "rarity": "Godlike"
+  },
+  {
+    "id": "pet_097",
+    "name": "Phượng Hoàng Băng",
+    "icon": "❄️",
+    "moneyBonus": 2500000.0,
+    "xpBonus": 2000000.0,
+    "price": 1350000000000000000000000,
+    "rarity": "Godlike"
+  },
+  {
+    "id": "pet_098",
+    "name": "Rồng Thần",
+    "icon": "🐲",
+    "moneyBonus": 3000000.0,
+    "xpBonus": 2400000.0,
+    "price": 2000000000000000000000000,
+    "rarity": "Godlike"
+  },
+  {
+    "id": "pet_099",
+    "name": "Thần Rồng",
+    "icon": "🐉",
+    "moneyBonus": 5000000.0,
+    "xpBonus": 4000000.0,
+    "price": 3000000000000000000000000,
+    "rarity": "Godlike"
+  },
+  {
+    "id": "pet_100",
+    "name": "Rồng Tối Thượng",
+    "icon": "🐉✨",
+    "moneyBonus": 10000000.0,
+    "xpBonus": 8000000.0,
+    "price": 5000000000000000000000000,
+    "rarity": "Godlike"
+  }
+]

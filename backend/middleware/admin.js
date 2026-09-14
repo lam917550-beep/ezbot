@@ -1,0 +1,1 @@
+const config=require('../../config/config'); module.exports=(req,res,next)=>{if(!req.user||!config.adminIds.includes(String(req.user.id)))return res.status(403).json({error:'Admin only',code:'ADMIN_REQUIRED'});next()};

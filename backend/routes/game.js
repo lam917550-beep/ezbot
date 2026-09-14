@@ -1,0 +1,2 @@
+const {auth}=require('../middleware/auth'); const rate=require('../middleware/rateLimit'); const {validate}=require('../middleware/validate'); const Joi=require('joi'); const engine=require('../services/gameEngine');
+module.exports=app=>{app.post('/api/game/play',auth,rate.game,validate(Joi.object({game:Joi.string().max(40).required(),amount:Joi.alternatives(Joi.number().integer().positive(),Joi.string().pattern(/^\d+$/)).required(),input:Joi.object().default({})})),(req,res)=>{const r=engine.play(req.user.id,req.body.game,req.body.amount,req.body.input);res.json(r)});};

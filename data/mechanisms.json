@@ -1,0 +1,1202 @@
+[
+  {
+    "id": 1,
+    "name": "30 game casino khác nhau"
+  },
+  {
+    "id": 2,
+    "name": "Bet control (min, ½, 2x, max, +/-, nhập tay)"
+  },
+  {
+    "id": 3,
+    "name": "Quick bet buttons (10K, 100K, 1M, 10M, 100M)"
+  },
+  {
+    "id": 4,
+    "name": "Auto-play mode (10, 25, 50, 100 ván)"
+  },
+  {
+    "id": 5,
+    "name": "Auto-stop khi thắng X hoặc thua Y"
+  },
+  {
+    "id": 6,
+    "name": "Tốc độ chơi (chậm, bình thường, nhanh, turbo)"
+  },
+  {
+    "id": 7,
+    "name": "Lịch sử 10 ván gần nhất dạng chip"
+  },
+  {
+    "id": 8,
+    "name": "Lịch sử 100 ván dạng bảng (phân trang)"
+  },
+  {
+    "id": 9,
+    "name": "Thống kê cá nhân theo game"
+  },
+  {
+    "id": 10,
+    "name": "Provably fair (server seed + client seed + nonce)"
+  },
+  {
+    "id": 11,
+    "name": "Verify fairness bằng link công khai"
+  },
+  {
+    "id": 12,
+    "name": "Demo mode (chơi thử không mất tiền, không nhận XP)"
+  },
+  {
+    "id": 13,
+    "name": "Tutorial từng game (5 bước)"
+  },
+  {
+    "id": 14,
+    "name": "Tooltip hướng dẫn trong game"
+  },
+  {
+    "id": 15,
+    "name": "Nút xem luật chơi (modal)"
+  },
+  {
+    "id": 16,
+    "name": "Nút xem payout table"
+  },
+  {
+    "id": 17,
+    "name": "Nút xem RTP (return to player)"
+  },
+  {
+    "id": 18,
+    "name": "Animation khi thắng (confetti, particle)"
+  },
+  {
+    "id": 19,
+    "name": "Animation khi thua (shake, desaturate)"
+  },
+  {
+    "id": 20,
+    "name": "Near-miss animation (kích thích)"
+  },
+  {
+    "id": 21,
+    "name": "Combo system (thắng liên tiếp tăng hệ số)"
+  },
+  {
+    "id": 22,
+    "name": "Combo counter hiển thị trên topbar"
+  },
+  {
+    "id": 23,
+    "name": "Combo reward (x1.2, x1.5, x2, x3, x5)"
+  },
+  {
+    "id": 24,
+    "name": "Streak bonus (thắng 5, 10, 20 ván liên tiếp)"
+  },
+  {
+    "id": 25,
+    "name": "Loss streak protection (giảm cược sau 5 ván thua)"
+  },
+  {
+    "id": 26,
+    "name": "Daily first win bonus (x2 ván đầu)"
+  },
+  {
+    "id": 27,
+    "name": "Happy hour (x2 tiền từ 20h-22h)"
+  },
+  {
+    "id": 28,
+    "name": "Lucky hour (tỉ lệ thắng +5% trong 1h random)"
+  },
+  {
+    "id": 29,
+    "name": "Mystery multiplier (random x2, x5, x10)"
+  },
+  {
+    "id": 30,
+    "name": "Random drop item trong ván"
+  },
+  {
+    "id": 31,
+    "name": "Random drop xu (bonus xu ngoài payout)"
+  },
+  {
+    "id": 32,
+    "name": "Jackpot contribution (1% mỗi ván vào jackpot)"
+  },
+  {
+    "id": 33,
+    "name": "Jackpot trigger (0.01% cơ hội mỗi ván)"
+  },
+  {
+    "id": 34,
+    "name": "Mini-jackpot (0.1% cơ hội, giải nhỏ)"
+  },
+  {
+    "id": 35,
+    "name": "Mega-jackpot (0.001% cơ hội, giải khủng)"
+  },
+  {
+    "id": 36,
+    "name": "Tournament mode (thi đấu theo giờ)"
+  },
+  {
+    "id": 37,
+    "name": "Leaderboard theo game"
+  },
+  {
+    "id": 38,
+    "name": "Leaderboard theo tuần/tháng"
+  },
+  {
+    "id": 39,
+    "name": "Season reset BXH mỗi 30 ngày"
+  },
+  {
+    "id": 40,
+    "name": "Hall of Fame (BXH lịch sử)"
+  },
+  {
+    "id": 41,
+    "name": "Daily challenges (3 nhiệm vụ ngẫu nhiên)"
+  },
+  {
+    "id": 42,
+    "name": "Weekly challenges (5 nhiệm vụ khó)"
+  },
+  {
+    "id": 43,
+    "name": "Monthly challenges (10 nhiệm vụ cực khó)"
+  },
+  {
+    "id": 44,
+    "name": "Achievement system (100+ thành tựu)"
+  },
+  {
+    "id": 45,
+    "name": "Achievement popup khi unlock"
+  },
+  {
+    "id": 46,
+    "name": "Achievement notification cho bạn bè"
+  },
+  {
+    "id": 47,
+    "name": "Milestone rewards (level 10, 30, 50, 100...)"
+  },
+  {
+    "id": 48,
+    "name": "Prestige system (sau level 1000 có thể reset để nhận bonus vĩnh viễn)"
+  },
+  {
+    "id": 49,
+    "name": "Rebirth system (sau prestige 10 lần có thể rebirth)"
+  },
+  {
+    "id": 50,
+    "name": "Legacy bonus (mỗi lần prestige tăng 5% bonus mãi mãi)"
+  },
+  {
+    "id": 51,
+    "name": "Balance (ví chính)"
+  },
+  {
+    "id": 52,
+    "name": "Bank (ngân hàng có lãi suất)"
+  },
+  {
+    "id": 53,
+    "name": "Lãi suất bank 1%/ngày"
+  },
+  {
+    "id": 54,
+    "name": "Lãi suất bank VIP 3%/ngày"
+  },
+  {
+    "id": 55,
+    "name": "Min cược (10,000)"
+  },
+  {
+    "id": 56,
+    "name": "Max cược 75% số dư"
+  },
+  {
+    "id": 57,
+    "name": "Daily reward (streak 7 ngày)"
+  },
+  {
+    "id": 58,
+    "name": "Weekly reward (streak 4 tuần)"
+  },
+  {
+    "id": 59,
+    "name": "Monthly reward (streak 12 tháng)"
+  },
+  {
+    "id": 60,
+    "name": "Yearly reward (streak 365 ngày)"
+  },
+  {
+    "id": 61,
+    "name": "Referral reward (mời bạn nhận xu)"
+  },
+  {
+    "id": 62,
+    "name": "Referral 3 cấp (F1, F2, F3)"
+  },
+  {
+    "id": 63,
+    "name": "Coupon system (mã quà tặng)"
+  },
+  {
+    "id": 64,
+    "name": "Promo code hàng tuần"
+  },
+  {
+    "id": 65,
+    "name": "Flash sale item (giảm 50% trong 1h)"
+  },
+  {
+    "id": 66,
+    "name": "Auction (đấu giá item hiếm)"
+  },
+  {
+    "id": 67,
+    "name": "Marketplace (mua bán giữa user)"
+  },
+  {
+    "id": 68,
+    "name": "Trade system (trao đổi an toàn)"
+  },
+  {
+    "id": 69,
+    "name": "Gift system (tặng bạn)"
+  },
+  {
+    "id": 70,
+    "name": "Tax system (thuế 5% giao dịch)"
+  },
+  {
+    "id": 71,
+    "name": "Fee cho bank (0.5% rút)"
+  },
+  {
+    "id": 72,
+    "name": "Fee cho trade (2% mỗi bên)"
+  },
+  {
+    "id": 73,
+    "name": "Inflation control (giảm reward nếu quá nhiều xu)"
+  },
+  {
+    "id": 74,
+    "name": "Money sink (item đắt, phí cao)"
+  },
+  {
+    "id": 75,
+    "name": "Money source (quest, event, daily)"
+  },
+  {
+    "id": 76,
+    "name": "XP source (mỗi trận thắng)"
+  },
+  {
+    "id": 77,
+    "name": "XP boost (item x2 XP)"
+  },
+  {
+    "id": 78,
+    "name": "Money boost (item x2 tiền)"
+  },
+  {
+    "id": 79,
+    "name": "Pet bonus (tăng % tiền và XP)"
+  },
+  {
+    "id": 80,
+    "name": "VIP tier (1-10, mỗi tier tăng 10% bonus)"
+  },
+  {
+    "id": 81,
+    "name": "VIP benefit (không giới hạn cược, ưu tiên support)"
+  },
+  {
+    "id": 82,
+    "name": "Clan bank (kho bạc bang hội)"
+  },
+  {
+    "id": 83,
+    "name": "Clan tax (thuế thành viên)"
+  },
+  {
+    "id": 84,
+    "name": "Clan reward (chia lãi cho thành viên)"
+  },
+  {
+    "id": 85,
+    "name": "Clan level (up bằng đóng góp)"
+  },
+  {
+    "id": 86,
+    "name": "Clan war (thi đấu bang hội)"
+  },
+  {
+    "id": 87,
+    "name": "Clan territory (chiếm lãnh thổ)"
+  },
+  {
+    "id": 88,
+    "name": "Clan event (event riêng cho clan)"
+  },
+  {
+    "id": 89,
+    "name": "Loan system (vay tiền có lãi)"
+  },
+  {
+    "id": 90,
+    "name": "Interest rate (10%/tuần)"
+  },
+  {
+    "id": 91,
+    "name": "Credit score (điểm tín dụng)"
+  },
+  {
+    "id": 92,
+    "name": "Bankruptcy protection (không cho âm tiền)"
+  },
+  {
+    "id": 93,
+    "name": "Insurance (bảo hiểm ván cược)"
+  },
+  {
+    "id": 94,
+    "name": "Hedge bet (cược đối ứng)"
+  },
+  {
+    "id": 95,
+    "name": "Savings goal (mục tiêu tiết kiệm)"
+  },
+  {
+    "id": 96,
+    "name": "Piggy bank (heo đất, khóa tiền 7 ngày)"
+  },
+  {
+    "id": 97,
+    "name": "Time deposit (gửi kỳ hạn 30 ngày, lãi 15%)"
+  },
+  {
+    "id": 98,
+    "name": "Crypto exchange (đổi xu ảo sang crypto ảo)"
+  },
+  {
+    "id": 99,
+    "name": "Stock market ảo (mua cổ phiếu ảo)"
+  },
+  {
+    "id": 100,
+    "name": "Real estate ảo (mua đất, cho thuê)"
+  },
+  {
+    "id": 101,
+    "name": "Chat global (mọi user)"
+  },
+  {
+    "id": 102,
+    "name": "Chat VIP (chỉ VIP)"
+  },
+  {
+    "id": 103,
+    "name": "Chat clan (chỉ thành viên)"
+  },
+  {
+    "id": 104,
+    "name": "Chat private (DM 1-1)"
+  },
+  {
+    "id": 105,
+    "name": "Chat room theo chủ đề"
+  },
+  {
+    "id": 106,
+    "name": "Emoji reaction"
+  },
+  {
+    "id": 107,
+    "name": "Sticker Telegram"
+  },
+  {
+    "id": 108,
+    "name": "GIF support"
+  },
+  {
+    "id": 109,
+    "name": "Mention (@username)"
+  },
+  {
+    "id": 110,
+    "name": "Reply message"
+  },
+  {
+    "id": 111,
+    "name": "Forward message"
+  },
+  {
+    "id": 112,
+    "name": "Pin message"
+  },
+  {
+    "id": 113,
+    "name": "Delete message (của mình)"
+  },
+  {
+    "id": 114,
+    "name": "Edit message (trong 5 phút)"
+  },
+  {
+    "id": 115,
+    "name": "Report message"
+  },
+  {
+    "id": 116,
+    "name": "Banned words filter"
+  },
+  {
+    "id": 117,
+    "name": "Rate limit chat (20 tin/phút)"
+  },
+  {
+    "id": 118,
+    "name": "Mute user (admin)"
+  },
+  {
+    "id": 119,
+    "name": "Ban user (admin)"
+  },
+  {
+    "id": 120,
+    "name": "Kick user khỏi chat (mod)"
+  },
+  {
+    "id": 121,
+    "name": "Chat moderator (bổ nhiệm)"
+  },
+  {
+    "id": 122,
+    "name": "Chat level (kinh nghiệm chat)"
+  },
+  {
+    "id": 123,
+    "name": "Chat badge (danh hiệu)"
+  },
+  {
+    "id": 124,
+    "name": "Chat color (màu tên)"
+  },
+  {
+    "id": 125,
+    "name": "Chat font (chữ đặc biệt)"
+  },
+  {
+    "id": 126,
+    "name": "Chat effect (hiệu ứng tin nhắn)"
+  },
+  {
+    "id": 127,
+    "name": "Profile public (ai cũng xem được)"
+  },
+  {
+    "id": 128,
+    "name": "Profile private (chỉ bạn bè)"
+  },
+  {
+    "id": 129,
+    "name": "Friend system (kết bạn)"
+  },
+  {
+    "id": 130,
+    "name": "Friend request"
+  },
+  {
+    "id": 131,
+    "name": "Friend list"
+  },
+  {
+    "id": 132,
+    "name": "Block user"
+  },
+  {
+    "id": 133,
+    "name": "Follow system"
+  },
+  {
+    "id": 134,
+    "name": "Follower count"
+  },
+  {
+    "id": 135,
+    "name": "Like system (thả tim profile)"
+  },
+  {
+    "id": 136,
+    "name": "Comment system (bình luận profile)"
+  },
+  {
+    "id": 137,
+    "name": "Clan system (bang hội)"
+  },
+  {
+    "id": 138,
+    "name": "Clan create/join/leave"
+  },
+  {
+    "id": 139,
+    "name": "Clan role (owner, admin, member)"
+  },
+  {
+    "id": 140,
+    "name": "Clan chat riêng"
+  },
+  {
+    "id": 141,
+    "name": "Clan bank"
+  },
+  {
+    "id": 142,
+    "name": "Clan war"
+  },
+  {
+    "id": 143,
+    "name": "Clan ranking"
+  },
+  {
+    "id": 144,
+    "name": "Clan quest"
+  },
+  {
+    "id": 145,
+    "name": "Clan achievement"
+  },
+  {
+    "id": 146,
+    "name": "Party system (nhóm chơi chung)"
+  },
+  {
+    "id": 147,
+    "name": "Party voice chat (nếu có)"
+  },
+  {
+    "id": 148,
+    "name": "Party bonus (+5% cho mỗi thành viên)"
+  },
+  {
+    "id": 149,
+    "name": "Team battle (đấu đội)"
+  },
+  {
+    "id": 150,
+    "name": "Gift system (tặng quà)"
+  },
+  {
+    "id": 151,
+    "name": "Avatar (30+ mặc định)"
+  },
+  {
+    "id": 152,
+    "name": "Avatar upload (custom)"
+  },
+  {
+    "id": 153,
+    "name": "Avatar frame (20+ khung)"
+  },
+  {
+    "id": 154,
+    "name": "Avatar effect (10+ hiệu ứng)"
+  },
+  {
+    "id": 155,
+    "name": "Avatar border (theo level)"
+  },
+  {
+    "id": 156,
+    "name": "Profile cover (ảnh bìa)"
+  },
+  {
+    "id": 157,
+    "name": "Profile background (10+ nền)"
+  },
+  {
+    "id": 158,
+    "name": "Profile theme (dark/light/neon/retro)"
+  },
+  {
+    "id": 159,
+    "name": "Bio (giới thiệu bản thân)"
+  },
+  {
+    "id": 160,
+    "name": "Status (đang chơi gì)"
+  },
+  {
+    "id": 161,
+    "name": "Title (danh hiệu)"
+  },
+  {
+    "id": 162,
+    "name": "Badge (huy hiệu)"
+  },
+  {
+    "id": 163,
+    "name": "Name color (màu tên)"
+  },
+  {
+    "id": 164,
+    "name": "Name effect (hiệu ứng tên)"
+  },
+  {
+    "id": 165,
+    "name": "Chat bubble (10+ kiểu)"
+  },
+  {
+    "id": 166,
+    "name": "Chat font (5+ font)"
+  },
+  {
+    "id": 167,
+    "name": "Emoji pack (5+ bộ)"
+  },
+  {
+    "id": 168,
+    "name": "Sticker pack (5+ bộ)"
+  },
+  {
+    "id": 169,
+    "name": "Sound pack (5+ bộ SFX)"
+  },
+  {
+    "id": 170,
+    "name": "Music pack (5+ bản nhạc)"
+  },
+  {
+    "id": 171,
+    "name": "Theme shop (mua theme)"
+  },
+  {
+    "id": 172,
+    "name": "Pet skin (5+ skin/pet)"
+  },
+  {
+    "id": 173,
+    "name": "Pet accessory (mũ, kính, nơ...)"
+  },
+  {
+    "id": 174,
+    "name": "Pet effect (aura, particle)"
+  },
+  {
+    "id": 175,
+    "name": "Pet animation (idle, walk, run)"
+  },
+  {
+    "id": 176,
+    "name": "Pet evolution (tiến hóa)"
+  },
+  {
+    "id": 177,
+    "name": "Pet fusion (kết hợp 2 pet)"
+  },
+  {
+    "id": 178,
+    "name": "Pet breeding (nhân giống)"
+  },
+  {
+    "id": 179,
+    "name": "Pet daycare (gửi pet lấy XP)"
+  },
+  {
+    "id": 180,
+    "name": "Pet training (luyện pet)"
+  },
+  {
+    "id": 181,
+    "name": "Pet food (thức ăn)"
+  },
+  {
+    "id": 182,
+    "name": "Pet toy (đồ chơi)"
+  },
+  {
+    "id": 183,
+    "name": "Pet house (nhà pet)"
+  },
+  {
+    "id": 184,
+    "name": "Pet garden (vườn pet)"
+  },
+  {
+    "id": 185,
+    "name": "Pet farm (nông trại pet)"
+  },
+  {
+    "id": 186,
+    "name": "Pet collection (sưu tầm)"
+  },
+  {
+    "id": 187,
+    "name": "Pet album (album pet)"
+  },
+  {
+    "id": 188,
+    "name": "Pet card (thẻ pet)"
+  },
+  {
+    "id": 189,
+    "name": "Pet trading card (thẻ giao dịch)"
+  },
+  {
+    "id": 190,
+    "name": "Pet stats (chỉ số pet)"
+  },
+  {
+    "id": 191,
+    "name": "Pet skill (kỹ năng pet)"
+  },
+  {
+    "id": 192,
+    "name": "Pet ultimate (chiêu cuối)"
+  },
+  {
+    "id": 193,
+    "name": "Pet equipment (trang bị pet)"
+  },
+  {
+    "id": 194,
+    "name": "Pet upgrade (nâng cấp pet)"
+  },
+  {
+    "id": 195,
+    "name": "Pet awaken (thức tỉnh pet)"
+  },
+  {
+    "id": 196,
+    "name": "Pet star (sao pet 1-10)"
+  },
+  {
+    "id": 197,
+    "name": "Pet rank (xếp hạng pet)"
+  },
+  {
+    "id": 198,
+    "name": "Pet leaderboard (BXH pet)"
+  },
+  {
+    "id": 199,
+    "name": "Pet tournament (giải đấu pet)"
+  },
+  {
+    "id": 200,
+    "name": "Pet event (event pet)"
+  },
+  {
+    "id": 201,
+    "name": "Event Tết Nguyên Đán"
+  },
+  {
+    "id": 202,
+    "name": "Event Valentine"
+  },
+  {
+    "id": 203,
+    "name": "Event 8/3"
+  },
+  {
+    "id": 204,
+    "name": "Event 30/4 - 1/5"
+  },
+  {
+    "id": 205,
+    "name": "Event Quốc tế Thiếu nhi 1/6"
+  },
+  {
+    "id": 206,
+    "name": "Event Trung thu"
+  },
+  {
+    "id": 207,
+    "name": "Event Halloween"
+  },
+  {
+    "id": 208,
+    "name": "Event Noel"
+  },
+  {
+    "id": 209,
+    "name": "Event Tết Dương lịch"
+  },
+  {
+    "id": 210,
+    "name": "Event Black Friday"
+  },
+  {
+    "id": 211,
+    "name": "Event Cyber Monday"
+  },
+  {
+    "id": 212,
+    "name": "Event khai trương game"
+  },
+  {
+    "id": 213,
+    "name": "Event kỷ niệm 1 năm"
+  },
+  {
+    "id": 214,
+    "name": "Event 1 triệu user"
+  },
+  {
+    "id": 215,
+    "name": "Event 1 tỷ xu"
+  },
+  {
+    "id": 216,
+    "name": "Event mùa hè"
+  },
+  {
+    "id": 217,
+    "name": "Event mùa đông"
+  },
+  {
+    "id": 218,
+    "name": "Event mùa xuân"
+  },
+  {
+    "id": 219,
+    "name": "Event mùa thu"
+  },
+  {
+    "id": 220,
+    "name": "Event mưa sao băng"
+  },
+  {
+    "id": 221,
+    "name": "Event nhật thực"
+  },
+  {
+    "id": 222,
+    "name": "Event nguyệt thực"
+  },
+  {
+    "id": 223,
+    "name": "Event siêu trăng"
+  },
+  {
+    "id": 224,
+    "name": "Event Halloween kinh dị"
+  },
+  {
+    "id": 225,
+    "name": "Event zombie apocalypse"
+  },
+  {
+    "id": 226,
+    "name": "Event alien invasion"
+  },
+  {
+    "id": 227,
+    "name": "Event dragon war"
+  },
+  {
+    "id": 228,
+    "name": "Event pirate treasure"
+  },
+  {
+    "id": 229,
+    "name": "Event space exploration"
+  },
+  {
+    "id": 230,
+    "name": "Event wild west"
+  },
+  {
+    "id": 231,
+    "name": "Event medieval"
+  },
+  {
+    "id": 232,
+    "name": "Event cyberpunk"
+  },
+  {
+    "id": 233,
+    "name": "Event anime"
+  },
+  {
+    "id": 234,
+    "name": "Event fantasy"
+  },
+  {
+    "id": 235,
+    "name": "Event sci-fi"
+  },
+  {
+    "id": 236,
+    "name": "Event horror"
+  },
+  {
+    "id": 237,
+    "name": "Event mystery"
+  },
+  {
+    "id": 238,
+    "name": "Event detective"
+  },
+  {
+    "id": 239,
+    "name": "Event casino royale"
+  },
+  {
+    "id": 240,
+    "name": "Event high roller"
+  },
+  {
+    "id": 241,
+    "name": "Season pass mùa 1 (30 ngày)"
+  },
+  {
+    "id": 242,
+    "name": "Season pass free track (30 tier)"
+  },
+  {
+    "id": 243,
+    "name": "Season pass premium track (30 tier)"
+  },
+  {
+    "id": 244,
+    "name": "Season pass XP (từ mọi hoạt động)"
+  },
+  {
+    "id": 245,
+    "name": "Season pass tier (mỗi 100 XP = 1 tier)"
+  },
+  {
+    "id": 246,
+    "name": "Season pass reward (quà mỗi tier)"
+  },
+  {
+    "id": 247,
+    "name": "Season pass mission (5 nhiệm vụ/tuần)"
+  },
+  {
+    "id": 248,
+    "name": "Season pass milestone (mỗi 10 tier quà lớn)"
+  },
+  {
+    "id": 249,
+    "name": "Season pass reset (mỗi 30 ngày)"
+  },
+  {
+    "id": 250,
+    "name": "Season ranking (BXH season)"
+  },
+  {
+    "id": 251,
+    "name": "Auth qua Telegram initData"
+  },
+  {
+    "id": 252,
+    "name": "Không đăng nhập thủ công"
+  },
+  {
+    "id": 253,
+    "name": "Auto-create user lần đầu"
+  },
+  {
+    "id": 254,
+    "name": "Onboarding 5 bước"
+  },
+  {
+    "id": 255,
+    "name": "Tên duy nhất (không trùng)"
+  },
+  {
+    "id": 256,
+    "name": "Đổi tên tốn 5,000,000 xu"
+  },
+  {
+    "id": 257,
+    "name": "Reset tên tốn 10,000,000 xu"
+  },
+  {
+    "id": 258,
+    "name": "Avatar mặc định random"
+  },
+  {
+    "id": 259,
+    "name": "Bio mặc định"
+  },
+  {
+    "id": 260,
+    "name": "Settings lưu localStorage"
+  },
+  {
+    "id": 261,
+    "name": "Sync settings lên server"
+  },
+  {
+    "id": 262,
+    "name": "Multi-device sync"
+  },
+  {
+    "id": 263,
+    "name": "Offline mode (cache)"
+  },
+  {
+    "id": 264,
+    "name": "Push notification qua bot"
+  },
+  {
+    "id": 265,
+    "name": "In-app notification"
+  },
+  {
+    "id": 266,
+    "name": "Email notification (nếu có email)"
+  },
+  {
+    "id": 267,
+    "name": "SMS notification (nếu có SĐT)"
+  },
+  {
+    "id": 268,
+    "name": "Maintenance mode (admin)"
+  },
+  {
+    "id": 269,
+    "name": "Announcement banner (admin)"
+  },
+  {
+    "id": 270,
+    "name": "Global broadcast (admin)"
+  },
+  {
+    "id": 271,
+    "name": "Rate limit mọi API"
+  },
+  {
+    "id": 272,
+    "name": "Anti-cheat (server-side)"
+  },
+  {
+    "id": 273,
+    "name": "Anti-spam (chat)"
+  },
+  {
+    "id": 274,
+    "name": "Anti-flood (API)"
+  },
+  {
+    "id": 275,
+    "name": "Anti-bot (turnstile nếu cần)"
+  },
+  {
+    "id": 276,
+    "name": "IP ban (admin)"
+  },
+  {
+    "id": 277,
+    "name": "Device ban (admin)"
+  },
+  {
+    "id": 278,
+    "name": "Shadow ban (admin)"
+  },
+  {
+    "id": 279,
+    "name": "User ban/unban (admin)"
+  },
+  {
+    "id": 280,
+    "name": "User mute/unmute (admin)"
+  },
+  {
+    "id": 281,
+    "name": "User reset (admin)"
+  },
+  {
+    "id": 282,
+    "name": "User export data (admin)"
+  },
+  {
+    "id": 283,
+    "name": "User import data (admin)"
+  },
+  {
+    "id": 284,
+    "name": "System stats (admin)"
+  },
+  {
+    "id": 285,
+    "name": "System logs (admin)"
+  },
+  {
+    "id": 286,
+    "name": "Admin logs (admin)"
+  },
+  {
+    "id": 287,
+    "name": "Error logs (admin)"
+  },
+  {
+    "id": 288,
+    "name": "Performance logs (admin)"
+  },
+  {
+    "id": 289,
+    "name": "Database backup (auto mỗi 6h)"
+  },
+  {
+    "id": 290,
+    "name": "Database restore (admin)"
+  },
+  {
+    "id": 291,
+    "name": "Database migration (auto)"
+  },
+  {
+    "id": 292,
+    "name": "Health check /health"
+  },
+  {
+    "id": 293,
+    "name": "Metrics /metrics (nếu cần)"
+  },
+  {
+    "id": 294,
+    "name": "Cron jobs (daily reset, weekly reset)"
+  },
+  {
+    "id": 295,
+    "name": "Webhook Telegram"
+  },
+  {
+    "id": 296,
+    "name": "Webhook verification"
+  },
+  {
+    "id": 297,
+    "name": "SSL/HTTPS (Render auto)"
+  },
+  {
+    "id": 298,
+    "name": "CORS config"
+  },
+  {
+    "id": 299,
+    "name": "CSP header"
+  },
+  {
+    "id": 300,
+    "name": "Helmet security headers"
+  }
+]

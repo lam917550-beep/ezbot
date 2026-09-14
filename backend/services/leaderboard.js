@@ -1,0 +1,3 @@
+const db=require('../../database/db'); const cache=new Map();
+const maps={money:'balance DESC',level:'level DESC,xp DESC',bank:'bank DESC',login_streak:'login_streak DESC',win_streak:'max_win_streak DESC',wins:'total_wins DESC'};
+function get(type='money',limit=50){const order=maps[type]||maps.money;const c=cache.get(type);if(c&&Date.now()-c.t<5000)return c.data;const data=db.prepare(`SELECT id,username,display_name,avatar,level,xp,balance,bank,login_streak,max_win_streak,total_wins FROM users WHERE banned=0 ORDER BY ${order} LIMIT ?`).all(Number(limit));cache.set(type,{t:Date.now(),data});return data} function invalidate(){cache.clear()} module.exports={get,invalidate};

@@ -1,0 +1,1 @@
+const rateLimit=require('express-rate-limit'); module.exports={api:rateLimit({windowMs:60000,max:120,standardHeaders:true,legacyHeaders:false}),game:rateLimit({windowMs:10000,max:20,standardHeaders:true,legacyHeaders:false}),chat:rateLimit({windowMs:60000,max:20,standardHeaders:true,legacyHeaders:false})};

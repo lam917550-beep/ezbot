@@ -1,0 +1,1 @@
+const board=require('../services/leaderboard'); module.exports=io=>setInterval(()=>{for(const t of ['money','level','bank','login_streak','win_streak','wins'])io.to('leaderboard').emit('leaderboard:update',{type:t,data:board.get(t,20)});},5000);

@@ -1,0 +1,1 @@
+const db=require('../../database/db'); module.exports={list:()=>db.prepare('SELECT * FROM items WHERE active=1 ORDER BY price').all(),getInventory:(id)=>db.prepare('SELECT i.*,inv.quantity FROM inventory inv JOIN items i ON i.code=inv.item_code WHERE inv.user_id=?').all(String(id))};

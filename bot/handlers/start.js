@@ -1,0 +1,3 @@
+const {Markup}=require('telegraf'); const {upsertUser}=require('../../backend/middleware/auth'); const eco=require('../../backend/services/economy'); const level=require('../../backend/services/level'); const energy=require('../../backend/services/energy');
+async function start(ctx){const u=upsertUser(ctx.from);const e=energy.getEnergy(u.id),l=level.getLevel(u.id);await ctx.reply(`🎰 CHÀO MỪNG ĐẾN CASINO MINI APP!\n\nXin chào ${ctx.from.first_name||'bạn'}!\n💰 Số dư: ${eco.getBalance(u.id).toString()} xu\n⚡ Năng lượng: ${e.current}/${e.max}\n🎯 Level: ${l.level} (${l.xp}/1000 XP)\n\nBấm nút bên dưới để vào game 👇`,Markup.inlineKeyboard([Markup.button.webApp('🎰 MỞ CASINO',process.env.WEBAPP_URL)]));}
+module.exports=start;

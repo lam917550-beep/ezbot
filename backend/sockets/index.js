@@ -1,0 +1,1 @@
+module.exports=io=>{io.on('connection',socket=>{socket.on('join:leaderboard',()=>socket.join('leaderboard'));socket.on('join:chat',room=>socket.join('chat:'+String(room).slice(0,32)));socket.on('client:inactive',flag=>socket.data.inactive=!!flag);});};

@@ -1,0 +1,1 @@
+export const haptic={light(){try{Telegram.WebApp.HapticFeedback.impactOccurred('light')}catch{}},success(){try{Telegram.WebApp.HapticFeedback.notificationOccurred('success')}catch{}},error(){try{Telegram.WebApp.HapticFeedback.notificationOccurred('error')}catch{}}};

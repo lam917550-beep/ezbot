@@ -1,0 +1,1 @@
+export const state={user:null,energy:null,level:null,pet:null,games:[],pets:[],route:'home'};export function setState(p){Object.assign(state,p);window.dispatchEvent(new CustomEvent('statechange',{detail:p}))}

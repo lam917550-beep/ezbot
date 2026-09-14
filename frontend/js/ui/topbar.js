@@ -1,0 +1,2 @@
+import { money } from '../utils.js';
+export function mountTopbar(el,state){ if(!el)return; el.innerHTML=`<header class="topbar"><div class="brand"><span class="brand-icon">🎰</span><div><b>CASINO</b><small>Telegram Mini App</small></div></div><div class="wallet-row"><span>💰 ${money(state.user.balance)}</span><span>⚡ ${state.energy.current}/${state.energy.max}</span><span>Lv ${state.user.level}</span></div></header>`; }
