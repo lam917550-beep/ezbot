@@ -4,7 +4,7 @@ function verifyInitData(initData,botToken,maxAge=86400){
   const params=new URLSearchParams(initData), hash=params.get('hash'); if(!hash||!/^[a-f0-9]{64}$/i.test(hash)) return {valid:false,reason:'invalid hash'};
   params.delete('hash');
   const dataCheckString=Array.from(params.entries()).sort(([a],[b])=>a.localeCompare(b)).map(([k,v])=>`${k}=${v}`).join('\n');
-  const secretKey=crypto.createHash('sha256').update(botToken).digest();
+  const secretKey=crypto.createHmac('sha256','WebAppData').update(botToken).digest();
   const calc=crypto.createHmac('sha256',secretKey).update(dataCheckString).digest();
   const supplied=Buffer.from(hash,'hex'); if(supplied.length!==calc.length||!crypto.timingSafeEqual(calc,supplied)) return {valid:false,reason:'hash mismatch'};
   const authDate=Number(params.get('auth_date')); if(!Number.isFinite(authDate)) return {valid:false,reason:'invalid auth_date'};
