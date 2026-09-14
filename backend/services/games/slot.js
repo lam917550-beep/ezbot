@@ -1,1 +1,0 @@
-module.exports={code:'slot',name:'Slot 5 Trục',icon:'🎰',resolve:(options={})=>{ const symbols=['🍒','🍋','🍊','🍇','🔔','💎','7️⃣','🃏']; return {kind:'slot',grid:Array.from({length:15},()=>symbols[randomInt(0,symbols.length-1)])}; } };

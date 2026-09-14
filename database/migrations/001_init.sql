@@ -1,1 +1,0 @@
-.read database/schema.sql

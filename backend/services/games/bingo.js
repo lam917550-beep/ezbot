@@ -1,1 +1,0 @@
-module.exports={code:'bingo',name:'Bingo',icon:'🎱',resolve:(options={})=>{ const card=shuffle(Array.from({length:75},(_,i)=>i+1)).slice(0,25); const draw=shuffle(Array.from({length:75},(_,i)=>i+1)).slice(0,20); return {kind:'bingo',card,draw}; } };

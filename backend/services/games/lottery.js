@@ -1,1 +1,0 @@
-module.exports={code:'lottery',name:'Xổ Số 3 Số',icon:'🎟️',resolve:(options={})=>{ return {kind:'lottery',digits:Array.from({length:3},()=>randomInt(0,9)),guess:Array.from({length:3},(_,i)=>Number(options?.digits?.[i]??0))}; } };

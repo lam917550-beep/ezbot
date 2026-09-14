@@ -1,1 +1,0 @@
-module.exports={code:'hilo',name:'Cao Thấp',icon:'🎴',resolve:(options={})=>{ return {kind:'hilo',current:randomInt(1,13),next:randomInt(1,13)}; } };

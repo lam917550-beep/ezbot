@@ -1,1 +1,0 @@
-module.exports={code:'rps',name:'Oẳn Tù Tì',icon:'✊',resolve:(options={})=>{ return {kind:'rps',move:['rock','paper','scissors'][randomInt(0,2)],choice:options?.choice||'rock'}; } };

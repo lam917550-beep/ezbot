@@ -1,2 +1,0 @@
-const config=require('../../config/config'); const db=require('../../database/db');
-module.exports=function(req,res,next){if(!config.adminIds.has(String(req.telegramId))) return res.status(403).json({error:'Bạn không có quyền',code:'ADMIN_ONLY'}); db.prepare('INSERT INTO logs(user_id,actor_id,action,target,meta) VALUES(?,?,?,?,?)').run(req.telegramId,req.telegramId,'admin_request',req.path,JSON.stringify(req.body||{})); next();};

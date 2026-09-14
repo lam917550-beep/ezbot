@@ -1,1 +1,0 @@
-module.exports={code:'balloon',name:'Bóng Bay',icon:'🎈',resolve:(options={})=>{ return {kind:'balloon',burstAt:Number((1+randomFloat()*10).toFixed(2))}; } };

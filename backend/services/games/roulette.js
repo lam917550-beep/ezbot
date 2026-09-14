@@ -1,1 +1,0 @@
-module.exports={code:'roulette',name:'Roulette',icon:'🎯',resolve:(options={})=>{ return {kind:'roulette',number:randomInt(0,36)}; } };

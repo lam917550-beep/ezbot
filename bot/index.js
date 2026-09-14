@@ -1,2 +1,0 @@
-const {Telegraf}=require('telegraf'); const config=require('../config/config'); const express=require('express');
-module.exports=(app)=>{const bot=new Telegraf(config.BOT_TOKEN); require('./handlers/start')(bot); require('./commands/user')(bot); require('./commands/admin')(bot); bot.catch(err=>console.error('BOT_ERROR',err.message)); app.use(bot.webhookCallback('/webhook')); bot.telegram.deleteWebhook({drop_pending_updates:false}).catch(()=>{}).finally(()=>bot.telegram.setWebhook(config.WEBHOOK_URL)); return bot;};

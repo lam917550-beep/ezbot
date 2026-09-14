@@ -1,1 +1,0 @@
-module.exports={code:'color',name:'Dự Đoán Màu',icon:'🌈',resolve:(options={})=>{ return {kind:'color',color:['red','blue','purple'][randomInt(0,2)],choice:options?.choice||'red'}; } };

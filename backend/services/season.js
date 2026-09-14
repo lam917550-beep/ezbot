@@ -1,1 +1,0 @@
-module.exports={getCurrentSeason:()=>null,getUserSeasonPass:()=>null,addSeasonXP(){},claimTierReward:()=>null,buyPremiumPass:()=>false};

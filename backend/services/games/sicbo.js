@@ -1,1 +1,0 @@
-module.exports={code:'sicbo',name:'Tài Xỉu',icon:'🎲',resolve:(options={})=>{ const dice=[randomInt(1,6),randomInt(1,6),randomInt(1,6)]; return {kind:'sicbo',dice,total:dice.reduce((a,b)=>a+b,0)}; } };

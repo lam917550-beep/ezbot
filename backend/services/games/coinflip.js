@@ -1,1 +1,0 @@
-module.exports={code:'coinflip',name:'Lật Đồng Xu',icon:'🪙',resolve:(options={})=>{ return {kind:'coinflip',side:randomInt(0,1)?'heads':'tails'}; } };

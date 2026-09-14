@@ -1,1 +1,0 @@
-module.exports={code:'horse',name:'Đua Ngựa Ảo',icon:'🐎',resolve:(options={})=>{ const speeds=Array.from({length:8},()=>randomFloat()); return {kind:'horse',winner:speeds.indexOf(Math.max(...speeds)),speeds}; } };

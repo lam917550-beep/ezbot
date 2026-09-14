@@ -1,1 +1,0 @@
-module.exports={code:'crash',name:'Crash',icon:'🚀',resolve:(options={})=>{ const crash=1.01/(1-randomFloat()*0.99); return {kind:'crash',crashPoint:Number(crash.toFixed(2)),demo:true}; } };

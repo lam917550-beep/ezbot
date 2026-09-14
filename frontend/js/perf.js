@@ -1,1 +1,0 @@
-(function(){const c=navigator.hardwareConcurrency||2,m=navigator.deviceMemory||2;const tier=c<=2||m<=2?'LITE':(c>=8&&m>=8?'ULTRA':'HIGH');document.body.dataset.tier=tier;window.__PERF_TIER__=tier})()

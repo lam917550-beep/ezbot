@@ -1,1 +1,0 @@
-module.exports={code:'plinko',name:'Plinko',icon:'⚪',resolve:(options={})=>{ const dirs=Array.from({length:12},()=>randomInt(0,1)?'R':'L'); const slot=dirs.reduce((a,d)=>a+(d==='R'?1:-1),0)+12; return {kind:'plinko',dirs,slot}; } };

@@ -1,1 +1,0 @@
-module.exports={code:'bottle',name:'Quay Chai',icon:'🍾',resolve:(options={})=>{ return {kind:'bottle',index:randomInt(0,11)}; } };

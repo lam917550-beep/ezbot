@@ -1,1 +1,0 @@
-module.exports=(schema,source='body')=>(req,res,next)=>{const r=schema.validate(req[source],{abortEarly:false,stripUnknown:true}); if(r.error) return res.status(400).json({error:r.error.details.map(x=>x.message).join('; '),code:'VALIDATION_ERROR'}); req[source]=r.value; next();};

@@ -1,1 +1,0 @@
-window.GameUI={async play(code,bet,options){return API.post('/api/games/play',{game:code,bet,options})}}

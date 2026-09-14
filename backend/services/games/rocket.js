@@ -1,1 +1,0 @@
-module.exports={code:'rocket',name:'Rocket',icon:'🚀',resolve:(options={})=>{ return {kind:'rocket',crashPoint:Number((1+randomFloat()*20).toFixed(2))}; } };

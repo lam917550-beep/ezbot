@@ -1,1 +1,0 @@
-module.exports={code:'dragontiger',name:'Rồng Hổ',icon:'🐉',resolve:(options={})=>{ return {kind:'dragontiger',dragon:randomInt(1,13),tiger:randomInt(1,13)}; } };

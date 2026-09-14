@@ -1,1 +1,0 @@
-module.exports={code:'scratch',name:'Cào Thẻ',icon:'🎫',resolve:(options={})=>{ const syms=['💎','💍','👑','🍀','🎁']; return {kind:'scratch',symbols:Array.from({length:9},()=>syms[randomInt(0,syms.length-1)])}; } };
